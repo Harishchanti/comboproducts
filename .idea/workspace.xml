@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e351999e-b382-4a29-948b-a12be1ef9292" name="Default Changelist" comment="" />
+    <list default="true" id="e351999e-b382-4a29-948b-a12be1ef9292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartResposne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comboproducts.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licious.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licius.sql" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/comboproducts/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +37,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
-          <entry key="java" value="57" />
+          <entry key="Comboproducts-assignment-ReadMe" value="1" />
+          <entry key="class" value="6" />
+          <entry key="java" value="72" />
           <entry key="properties" value="1" />
+          <entry key="swp" value="1" />
           <entry key="xml" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="57" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="72" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="1" />
@@ -45,7 +59,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2109" />
+          <entry key="java" value="3595" />
           <entry key="properties" value="2" />
           <entry key="xml" value="5" />
           <entry key="yml" value="81" />
@@ -53,7 +67,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2109" />
+          <entry key="JAVA" value="3595" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="5" />
@@ -65,10 +79,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/ComboProductsController.java">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+            <state relative-caret-position="290">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/ComboProductsService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="466">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,58 +118,25 @@
         <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ProductsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ProductsEntity.java">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/LineItemsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+            <state relative-caret-position="203">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ComboProductsRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/ComboProductsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductListEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/LineItemsEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="238">
+              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state relative-caret-position="348">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,13 +157,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/CatagoryEntity.java">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartResposne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="348">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -183,6 +197,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -197,11 +214,8 @@
       <list>
         <option value="$PROJECT_DIR$/comboproducts/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/ProductsController.java" />
-        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductlistEntity.java" />
-        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrderRepository.java" />
-        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/LineItemsRepository.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/CatagoryRepository.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ComboProductsRepository.java" />
@@ -222,10 +236,17 @@
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/config/SwaggerConfiguration.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/ComboProductsService.java" />
-        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductListEntity.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/LineItemsEntity.java" />
         <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ProductsEntity.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/Constants.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartResposne.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartRequest.java" />
+        <option value="$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java" />
       </list>
     </option>
   </component>
@@ -248,6 +269,7 @@
     <option name="width" value="1213" />
     <option name="height" value="1405" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -304,16 +326,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licious" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licious" type="462c0819:PsiDirectoryNode" />
-              <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,6 +346,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licious" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licious" type="462c0819:PsiDirectoryNode" />
+              <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -345,14 +367,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licious" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licious" type="462c0819:PsiDirectoryNode" />
-              <item name="comboproducts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="licious" type="b2602c69:ProjectViewProjectNode" />
@@ -438,7 +452,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601452554344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601457025274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/comboproducts/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -447,6 +461,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.licious.in.comboproducts.service" />
+      <recent name="com.example.licious.in.comboproducts.model" />
       <recent name="com.example.licious.in.comboproducts.config" />
       <recent name="com.example.licious.in.comboproducts.repository" />
       <recent name="com.example.licious.in.comboproducts.entity" />
@@ -502,9 +518,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="2426" height="1405" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27288282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27288282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,12 +532,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923618" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42581213" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26777875" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44239226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32923618" />
@@ -541,18 +556,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/ComboProductsService.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -565,13 +568,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/ComboproductsApplication.java" />
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity.java" />
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/ProductsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/CatagoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -583,33 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/ComboProductCreateRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/ComboProductsDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/ComboProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.3.4.RELEASE/spring-data-commons-2.3.4.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -692,37 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/LineItemsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ComboProductsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,17 +681,10 @@
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/LineItemsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ProductsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -777,20 +702,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java">
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/ComboProductApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="61">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/.gitignore.swp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Comboproducts-assignment-ReadMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/ProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/ComboProductsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        <state relative-caret-position="522">
+          <caret line="23" column="5" selection-start-line="20" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/ComboProductCreateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/ComboProductsDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.3.4.RELEASE/spring-data-commons-2.3.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartResposne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/ProductsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/LineItemsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/repository/OrdersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/ComboProductsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/model/CartRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/entity/OrdersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -799,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comboproducts/src/main/java/com/example/licious/in/comboproducts/service/ComboProductsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

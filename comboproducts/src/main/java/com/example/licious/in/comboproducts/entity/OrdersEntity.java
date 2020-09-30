@@ -31,6 +31,12 @@ public class OrdersEntity {
     @Column(name = "buyer_ph_number")
     String buyerPhNumber;
 
+    @Column(name = "combo_id")
+    Long comboId;
+
+    @Column(name = "quantity")
+    Integer quantity;
+
     @Column(name = "total_amount")
     Double totalAmount;
 
@@ -42,6 +48,7 @@ public class OrdersEntity {
 
     @Column(name = "status")
     String status;
+
 
     @Column(name = "created_at")
     Date createdOn;

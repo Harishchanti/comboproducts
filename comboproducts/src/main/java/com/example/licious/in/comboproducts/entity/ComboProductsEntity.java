@@ -26,6 +26,9 @@ public class ComboProductsEntity {
     @Column(name = "discription")
     String discription;
 
+    /*@Column(name = "combo_id")
+    String comboId;*/
+
     @Column(name = "selling_price")
     Double sellingPrice;
 
