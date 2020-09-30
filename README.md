@@ -25,3 +25,5 @@ ie,
   http://127.0.0.1:9030/swagger-ui.html#
 
 9. Refer "Smaple-curl-request" file to test the api's
+
+10. Open "licious.mwb" file to check Table design
