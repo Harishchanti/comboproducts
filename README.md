@@ -16,7 +16,7 @@ ie,
 - use catalog_management;
 - source < Absolute path to catalog-management.sql file >
 
-6. Go to  "comboproducts" Prodject
+6. Go to  "comboproducts" Project
  
 7. Run Spring boot application 
     ie, ComboProductApplication.java class
