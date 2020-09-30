@@ -1,5 +1,5 @@
 
-Create combo products:
+1. Create combo products:
 
 
 Discription : String [ Combo product description]
@@ -23,7 +23,7 @@ curl -X POST \
 }'
 
 
-Get combo Products list : 
+2 . Get combo Products list : 
 
 Requst param : 
 
@@ -34,4 +34,20 @@ sortBy : String [desc,asc] - {sort based on comboproduct selling price}
 ie,
 
 curl -X GET "http://127.0.0.1:9030/api/combo/products?page=0&pageSize=30&sortby=desc" -H "accept: */*"
+
+
+3. Order placement 
+
+ name : String - customer name
+ mobilenumber : String - customer number
+ comboId : Long - comboId
+ qty : Integer  - quantity
+ address : customer address
+
+
+curl -X POST "http://127.0.0.1:9030/api/order" -H "accept: */*" -H "Content-Type: application/json" -d "{\"address\": \" HSR Layput bangalore\", \"comboId\": 3, \"mobilenumber\": \"7411489557\", \"name\": \"Harish V\", \"qty\": 2}"
+
+
+
+curl -X POST "http://127.0.0.1:9030/api/order" -H "accept: */*" -H "Content-Type: application/json" -d "{\"address\": \" HSR Layput bangalore\", \"comboId\": 3, \"mobilenumber\": \"7411489557\", \"name\": \"Harish V\", \"qty\": 2}"
 
