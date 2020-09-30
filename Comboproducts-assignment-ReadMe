@@ -1,0 +1,37 @@
+
+Create combo products:
+
+
+Discription : String [ Combo product description]
+Selling price : double
+Use skuList values from the list: [ LICIOUSPROD001 , LICIOUSPROD002, LICIOUSPROD003, LICIOUSPROD004 , LICIOUSPROD005]
+
+ 
+ie,
+curl -X POST \
+  http://localhost:9030/api/combo/products \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 8f39bc7b-82b0-9df6-dd26-16921c1e9866' \
+  -d '{
+  "description": "Chicken and Everyday Milk Powder",
+  "sellingPrice": 450,
+  "skuList": [
+    "LICIOUSPROD001",
+    "LICIOUSPROD004"
+  ]
+}'
+
+
+Get combo Products list : 
+
+Requst param : 
+
+page : interger - [0,1...n]
+PageSize:  integer - [0,1,...n]
+sortBy : String [desc,asc] - {sort based on comboproduct selling price}
+
+ie,
+
+curl -X GET "http://127.0.0.1:9030/api/combo/products?page=0&pageSize=30&sortby=desc" -H "accept: */*"
+

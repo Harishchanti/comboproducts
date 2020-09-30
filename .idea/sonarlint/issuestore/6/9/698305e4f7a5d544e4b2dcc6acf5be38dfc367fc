@@ -1,0 +1,8 @@
+
+Qsquid:S1172!".Remove this unused method parameter "request".(öšİÛûÿÿÿÿ8ØÁñÑÍ.
+[squid:S1854R"8Remove this useless assignment to local variable "skus".(şµŠ‡ùÿÿÿÿ8Ç–ÊÓÍ.
+tsquid:UselessImportCheck"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8şŸ÷ÒÍ.
+isquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(©£Îá8ò•œÓÍ.
+qsquid:UselessImportCheck
+"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ8›¯¢ÓÍ.
+Lsquid:S1481R")Remove this unused "skus" local variable.(şµŠ‡ùÿÿÿÿ8…ºÍÓÍ.
