@@ -11,8 +11,10 @@
 ie, create database catalog_management;
 
 5. import catalog-management.sql File
-  ie, 1. use catalog_management;
-      2. source <Absolute path to catalog-management.sql file>
+
+ie,
+- use catalog_management;
+- source < Absolute path to catalog-management.sql file >
 
 6. Go to  "comboproducts" Prodject
  
